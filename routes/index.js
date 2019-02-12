@@ -24,6 +24,10 @@ router.get('/error', function(req, res) {
   res.render('questions/unprocessed', { title: 'Express' });
 });
 
+router.get('/terms', function(req, res) {
+  res.render('terms', { title: 'Express' });
+});
+
 router.get('/csc3322018010101seo1', function(req, res) {
   res.render('questions/csc322/csc332', { title: 'Express' });
 });
